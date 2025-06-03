@@ -5,7 +5,7 @@
     <classes>
       <class name="com.example.restassured_practice.DynamicTest">
         <methods>
-          <include name="addName"/>
+          <include name="addName" invocation-numbers="0 1 2"/>
         </methods>
       </class> <!-- com.example.restassured_practice.DynamicTest -->
     </classes>

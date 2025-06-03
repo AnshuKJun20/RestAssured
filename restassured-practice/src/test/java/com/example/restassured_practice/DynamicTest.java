@@ -28,4 +28,7 @@ public class DynamicTest {
 		public  Object[][] addData() {
 			return new Object[][] {{"Chaeles Browb", "A", "98"},{"readic Browb", "B", "88"},{"jamesc Browb", "C", "28"}};
 		}
+		
+		// we can call multiple data using static json file as 
+		// new String(file.getAllByres(path.get("Json path")));
 }
