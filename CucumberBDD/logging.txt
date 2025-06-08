@@ -1,0 +1,154 @@
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": "2",
+    "name": "Eden",
+    "address": {
+        "street": "3rd lane1",
+        "suite": "101",
+        "city": "Pune",
+        "zipcode": "109099",
+        "geo": {
+            "lat": "32.89",
+            "lng": "76.65"
+        }
+    },
+    "email": "ak@gmail.com",
+    "company": null,
+    "username": "kk123",
+    "phone": "9938543890",
+    "website": "anc@ac.in"
+}
+HTTP/1.1 201 Created
+Date: Sun, 08 Jun 2025 18:28:31 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 326
+Connection: keep-alive
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: Location
+Cache-Control: no-cache
+Etag: W/"146-jyOIwLKWATR/MqAmQ+eyQgwM0Wc"
+Expires: -1
+Location: https://jsonplaceholder.typicode.com/users/11
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Pragma: no-cache
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=%2FLBl8MTtkAEswv6bf31hJvtVxtGgh3dHHIF5Q0LPHf8%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1749407311"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=%2FLBl8MTtkAEswv6bf31hJvtVxtGgh3dHHIF5Q0LPHf8%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1749407311"
+Server: cloudflare
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Via: 2.0 heroku-router
+X-Content-Type-Options: nosniff
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 999
+X-Ratelimit-Reset: 1749407319
+Cf-Cache-Status: DYNAMIC
+CF-RAY: 94ca730e0aa281f2-SIN
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 11,
+    "name": "Eden",
+    "address": {
+        "street": "3rd lane1",
+        "suite": "101",
+        "city": "Pune",
+        "zipcode": "109099",
+        "geo": {
+            "lat": "32.89",
+            "lng": "76.65"
+        }
+    },
+    "email": "ak@gmail.com",
+    "company": null,
+    "username": "kk123",
+    "phone": "9938543890",
+    "website": "anc@ac.in"
+}
+Request method:	POST
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": "2",
+    "name": "Eden",
+    "address": {
+        "street": "3rd lane1",
+        "suite": "101",
+        "city": "Pune",
+        "zipcode": "109099",
+        "geo": {
+            "lat": "32.89",
+            "lng": "76.65"
+        }
+    },
+    "email": "ak@gmail.com",
+    "company": null,
+    "username": "kk123",
+    "phone": "9938543890",
+    "website": "anc@ac.in"
+}
+HTTP/1.1 201 Created
+Date: Sun, 08 Jun 2025 18:28:32 GMT
+Content-Type: application/json; charset=utf-8
+Content-Length: 326
+Connection: keep-alive
+Access-Control-Allow-Credentials: true
+Access-Control-Expose-Headers: Location
+Cache-Control: no-cache
+Etag: W/"146-jyOIwLKWATR/MqAmQ+eyQgwM0Wc"
+Expires: -1
+Location: https://jsonplaceholder.typicode.com/users/11
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Pragma: no-cache
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=rK%2F9eEClEnc6a5fCDWB58ha4eiCQZwoYm7ydLesE3Yk%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1749407312"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=rK%2F9eEClEnc6a5fCDWB58ha4eiCQZwoYm7ydLesE3Yk%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1749407312"
+Server: cloudflare
+Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Via: 2.0 heroku-router
+X-Content-Type-Options: nosniff
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 999
+X-Ratelimit-Reset: 1749407319
+Cf-Cache-Status: DYNAMIC
+CF-RAY: 94ca7312cd85fe1b-SIN
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 11,
+    "name": "Eden",
+    "address": {
+        "street": "3rd lane1",
+        "suite": "101",
+        "city": "Pune",
+        "zipcode": "109099",
+        "geo": {
+            "lat": "32.89",
+            "lng": "76.65"
+        }
+    },
+    "email": "ak@gmail.com",
+    "company": null,
+    "username": "kk123",
+    "phone": "9938543890",
+    "website": "anc@ac.in"
+}
