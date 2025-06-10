@@ -31,8 +31,8 @@ public class CommonUtils {
 
 	}
 
-	public ResponseSpecification responseSpecification() throws FileNotFoundException {
-		respc = new ResponseSpecBuilder().expectStatusCode(201).expectContentType(ContentType.JSON).build();
+	public ResponseSpecification responseSpecification(String statusCode) throws FileNotFoundException {
+		respc = new ResponseSpecBuilder().expectStatusCode(Integer.parseInt(statusCode)).expectContentType(ContentType.JSON).build();
 		return respc;
 	}
 	

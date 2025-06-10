@@ -12,38 +12,38 @@ Multiparts:		<none>
 Body:
 {
     "id": "2",
-    "name": "Eden",
+    "name": "Bideden",
     "address": {
         "street": "3rd lane1",
-        "suite": "101",
-        "city": "Pune",
-        "zipcode": "109099",
+        "suite": "141",
+        "city": "Nagpur",
+        "zipcode": "108099",
         "geo": {
             "lat": "32.89",
             "lng": "76.65"
         }
     },
-    "email": "ak@gmail.com",
+    "email": "a12k@gmail.com",
     "company": null,
-    "username": "kk123",
-    "phone": "9938543890",
-    "website": "anc@ac.in"
+    "username": "kb123",
+    "phone": "99988543890",
+    "website": "an23c@ac.in"
 }
 HTTP/1.1 201 Created
-Date: Sun, 08 Jun 2025 18:28:31 GMT
+Date: Tue, 10 Jun 2025 19:28:44 GMT
 Content-Type: application/json; charset=utf-8
-Content-Length: 326
+Content-Length: 336
 Connection: keep-alive
 Access-Control-Allow-Credentials: true
 Access-Control-Expose-Headers: Location
 Cache-Control: no-cache
-Etag: W/"146-jyOIwLKWATR/MqAmQ+eyQgwM0Wc"
+Etag: W/"150-LoM5OyZ16iES3DGe8YlOlS2KgeA"
 Expires: -1
 Location: https://jsonplaceholder.typicode.com/users/11
 Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
 Pragma: no-cache
-Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=%2FLBl8MTtkAEswv6bf31hJvtVxtGgh3dHHIF5Q0LPHf8%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1749407311"}],"max_age":3600}
-Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=%2FLBl8MTtkAEswv6bf31hJvtVxtGgh3dHHIF5Q0LPHf8%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1749407311"
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=NgGCrcWqGH5ntz3wwgxahPll8cwjjoigun0j9A4eJXM%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1749583724"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=NgGCrcWqGH5ntz3wwgxahPll8cwjjoigun0j9A4eJXM%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1749583724"
 Server: cloudflare
 Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
 Via: 2.0 heroku-router
@@ -51,32 +51,32 @@ X-Content-Type-Options: nosniff
 X-Powered-By: Express
 X-Ratelimit-Limit: 1000
 X-Ratelimit-Remaining: 999
-X-Ratelimit-Reset: 1749407319
+X-Ratelimit-Reset: 1749583763
 Cf-Cache-Status: DYNAMIC
-CF-RAY: 94ca730e0aa281f2-SIN
+CF-RAY: 94db4603eb0c5f34-SIN
 alt-svc: h3=":443"; ma=86400
 
 {
     "id": 11,
-    "name": "Eden",
+    "name": "Bideden",
     "address": {
         "street": "3rd lane1",
-        "suite": "101",
-        "city": "Pune",
-        "zipcode": "109099",
+        "suite": "141",
+        "city": "Nagpur",
+        "zipcode": "108099",
         "geo": {
             "lat": "32.89",
             "lng": "76.65"
         }
     },
-    "email": "ak@gmail.com",
+    "email": "a12k@gmail.com",
     "company": null,
-    "username": "kk123",
-    "phone": "9938543890",
-    "website": "anc@ac.in"
+    "username": "kb123",
+    "phone": "99988543890",
+    "website": "an23c@ac.in"
 }
-Request method:	POST
-Request URI:	https://jsonplaceholder.typicode.com/users
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/users/2
 Proxy:			<none>
 Request params:	<none>
 Query params:	<none>
@@ -89,66 +89,560 @@ Multiparts:		<none>
 Body:
 {
     "id": "2",
-    "name": "Eden",
+    "name": "Bideden",
     "address": {
         "street": "3rd lane1",
-        "suite": "101",
-        "city": "Pune",
-        "zipcode": "109099",
+        "suite": "141",
+        "city": "Nagpur",
+        "zipcode": "108099",
         "geo": {
             "lat": "32.89",
             "lng": "76.65"
         }
     },
-    "email": "ak@gmail.com",
+    "email": "a12k@gmail.com",
     "company": null,
-    "username": "kk123",
-    "phone": "9938543890",
-    "website": "anc@ac.in"
+    "username": "kb123",
+    "phone": "99988543890",
+    "website": "an23c@ac.in"
 }
-HTTP/1.1 201 Created
-Date: Sun, 08 Jun 2025 18:28:32 GMT
+HTTP/1.1 200 OK
+Date: Tue, 10 Jun 2025 19:28:44 GMT
 Content-Type: application/json; charset=utf-8
-Content-Length: 326
+Transfer-Encoding: chunked
 Connection: keep-alive
 Access-Control-Allow-Credentials: true
-Access-Control-Expose-Headers: Location
-Cache-Control: no-cache
-Etag: W/"146-jyOIwLKWATR/MqAmQ+eyQgwM0Wc"
+Cache-Control: max-age=43200
+Etag: W/"1fd-XTG63SYhaP/Uo6/vgmARnL3rpBk"
 Expires: -1
-Location: https://jsonplaceholder.typicode.com/users/11
 Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
 Pragma: no-cache
-Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=rK%2F9eEClEnc6a5fCDWB58ha4eiCQZwoYm7ydLesE3Yk%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1749407312"}],"max_age":3600}
-Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=rK%2F9eEClEnc6a5fCDWB58ha4eiCQZwoYm7ydLesE3Yk%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1749407312"
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=3jcg%2F2DlA53h9ud9xqsz%2BpnmChEp521aRP3sBTqMhO8%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1748285263"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=3jcg%2F2DlA53h9ud9xqsz%2BpnmChEp521aRP3sBTqMhO8%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1748285263"
 Server: cloudflare
-Vary: Origin, X-HTTP-Method-Override, Accept-Encoding
+Vary: Origin, Accept-Encoding
 Via: 2.0 heroku-router
 X-Content-Type-Options: nosniff
 X-Powered-By: Express
 X-Ratelimit-Limit: 1000
 X-Ratelimit-Remaining: 999
-X-Ratelimit-Reset: 1749407319
-Cf-Cache-Status: DYNAMIC
-CF-RAY: 94ca7312cd85fe1b-SIN
+X-Ratelimit-Reset: 1748285308
+Age: 27748
+Cf-Cache-Status: HIT
+Content-Encoding: gzip
+CF-RAY: 94db4608c9a0ec6b-SIN
 alt-svc: h3=":443"; ma=86400
 
 {
-    "id": 11,
-    "name": "Eden",
+    "id": 2,
+    "name": "Ervin Howell",
+    "username": "Antonette",
+    "email": "Shanna@melissa.tv",
+    "address": {
+        "street": "Victor Plains",
+        "suite": "Suite 879",
+        "city": "Wisokyburgh",
+        "zipcode": "90566-7771",
+        "geo": {
+            "lat": "-43.9509",
+            "lng": "-34.4618"
+        }
+    },
+    "phone": "010-692-6593 x09125",
+    "website": "anastasia.net",
+    "company": {
+        "name": "Deckow-Crist",
+        "catchPhrase": "Proactive didactic contingency",
+        "bs": "synergize scalable supply-chains"
+    }
+}
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/users
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 10 Jun 2025 19:28:44 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Server: cloudflare
+Report-To: {"group":"heroku-nel","max_age":3600,"endpoints":[{"url":"https://nel.heroku.com/reports?ts=1745352599&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=Sg9m8Y6T%2FRdN1sDi66ewDvoN2CqbymrJL4HGFjalrA8%3D"}]}
+Reporting-Endpoints: heroku-nel=https://nel.heroku.com/reports?ts=1745352599&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&s=Sg9m8Y6T%2FRdN1sDi66ewDvoN2CqbymrJL4HGFjalrA8%3D
+Nel: {"report_to":"heroku-nel","max_age":3600,"success_fraction":0.005,"failure_fraction":0.05,"response_headers":["Via"]}
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 999
+X-Ratelimit-Reset: 1745352613
+Vary: Origin, Accept-Encoding
+Access-Control-Allow-Credentials: true
+Cache-Control: max-age=43200
+Pragma: no-cache
+Expires: -1
+X-Content-Type-Options: nosniff
+Etag: W/"160d-1eMSsxeJRfnVLRBmYJSbCiJZ1qQ"
+Content-Encoding: gzip
+Via: 1.1 vegur
+Age: 6374
+Cf-Cache-Status: HIT
+CF-RAY: 94db46092b0a5fa5-SIN
+alt-svc: h3=":443"; ma=86400
+
+[
+    {
+        "id": 1,
+        "name": "Leanne Graham",
+        "username": "Bret",
+        "email": "Sincere@april.biz",
+        "address": {
+            "street": "Kulas Light",
+            "suite": "Apt. 556",
+            "city": "Gwenborough",
+            "zipcode": "92998-3874",
+            "geo": {
+                "lat": "-37.3159",
+                "lng": "81.1496"
+            }
+        },
+        "phone": "1-770-736-8031 x56442",
+        "website": "hildegard.org",
+        "company": {
+            "name": "Romaguera-Crona",
+            "catchPhrase": "Multi-layered client-server neural-net",
+            "bs": "harness real-time e-markets"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Ervin Howell",
+        "username": "Antonette",
+        "email": "Shanna@melissa.tv",
+        "address": {
+            "street": "Victor Plains",
+            "suite": "Suite 879",
+            "city": "Wisokyburgh",
+            "zipcode": "90566-7771",
+            "geo": {
+                "lat": "-43.9509",
+                "lng": "-34.4618"
+            }
+        },
+        "phone": "010-692-6593 x09125",
+        "website": "anastasia.net",
+        "company": {
+            "name": "Deckow-Crist",
+            "catchPhrase": "Proactive didactic contingency",
+            "bs": "synergize scalable supply-chains"
+        }
+    },
+    {
+        "id": 3,
+        "name": "Clementine Bauch",
+        "username": "Samantha",
+        "email": "Nathan@yesenia.net",
+        "address": {
+            "street": "Douglas Extension",
+            "suite": "Suite 847",
+            "city": "McKenziehaven",
+            "zipcode": "59590-4157",
+            "geo": {
+                "lat": "-68.6102",
+                "lng": "-47.0653"
+            }
+        },
+        "phone": "1-463-123-4447",
+        "website": "ramiro.info",
+        "company": {
+            "name": "Romaguera-Jacobson",
+            "catchPhrase": "Face to face bifurcated interface",
+            "bs": "e-enable strategic applications"
+        }
+    },
+    {
+        "id": 4,
+        "name": "Patricia Lebsack",
+        "username": "Karianne",
+        "email": "Julianne.OConner@kory.org",
+        "address": {
+            "street": "Hoeger Mall",
+            "suite": "Apt. 692",
+            "city": "South Elvis",
+            "zipcode": "53919-4257",
+            "geo": {
+                "lat": "29.4572",
+                "lng": "-164.2990"
+            }
+        },
+        "phone": "493-170-9623 x156",
+        "website": "kale.biz",
+        "company": {
+            "name": "Robel-Corkery",
+            "catchPhrase": "Multi-tiered zero tolerance productivity",
+            "bs": "transition cutting-edge web services"
+        }
+    },
+    {
+        "id": 5,
+        "name": "Chelsey Dietrich",
+        "username": "Kamren",
+        "email": "Lucio_Hettinger@annie.ca",
+        "address": {
+            "street": "Skiles Walks",
+            "suite": "Suite 351",
+            "city": "Roscoeview",
+            "zipcode": "33263",
+            "geo": {
+                "lat": "-31.8129",
+                "lng": "62.5342"
+            }
+        },
+        "phone": "(254)954-1289",
+        "website": "demarco.info",
+        "company": {
+            "name": "Keebler LLC",
+            "catchPhrase": "User-centric fault-tolerant solution",
+            "bs": "revolutionize end-to-end systems"
+        }
+    },
+    {
+        "id": 6,
+        "name": "Mrs. Dennis Schulist",
+        "username": "Leopoldo_Corkery",
+        "email": "Karley_Dach@jasper.info",
+        "address": {
+            "street": "Norberto Crossing",
+            "suite": "Apt. 950",
+            "city": "South Christy",
+            "zipcode": "23505-1337",
+            "geo": {
+                "lat": "-71.4197",
+                "lng": "71.7478"
+            }
+        },
+        "phone": "1-477-935-8478 x6430",
+        "website": "ola.org",
+        "company": {
+            "name": "Considine-Lockman",
+            "catchPhrase": "Synchronised bottom-line interface",
+            "bs": "e-enable innovative applications"
+        }
+    },
+    {
+        "id": 7,
+        "name": "Kurtis Weissnat",
+        "username": "Elwyn.Skiles",
+        "email": "Telly.Hoeger@billy.biz",
+        "address": {
+            "street": "Rex Trail",
+            "suite": "Suite 280",
+            "city": "Howemouth",
+            "zipcode": "58804-1099",
+            "geo": {
+                "lat": "24.8918",
+                "lng": "21.8984"
+            }
+        },
+        "phone": "210.067.6132",
+        "website": "elvis.io",
+        "company": {
+            "name": "Johns Group",
+            "catchPhrase": "Configurable multimedia task-force",
+            "bs": "generate enterprise e-tailers"
+        }
+    },
+    {
+        "id": 8,
+        "name": "Nicholas Runolfsdottir V",
+        "username": "Maxime_Nienow",
+        "email": "Sherwood@rosamond.me",
+        "address": {
+            "street": "Ellsworth Summit",
+            "suite": "Suite 729",
+            "city": "Aliyaview",
+            "zipcode": "45169",
+            "geo": {
+                "lat": "-14.3990",
+                "lng": "-120.7677"
+            }
+        },
+        "phone": "586.493.6943 x140",
+        "website": "jacynthe.com",
+        "company": {
+            "name": "Abernathy Group",
+            "catchPhrase": "Implemented secondary concept",
+            "bs": "e-enable extensible e-tailers"
+        }
+    },
+    {
+        "id": 9,
+        "name": "Glenna Reichert",
+        "username": "Delphine",
+        "email": "Chaim_McDermott@dana.io",
+        "address": {
+            "street": "Dayna Park",
+            "suite": "Suite 449",
+            "city": "Bartholomebury",
+            "zipcode": "76495-3109",
+            "geo": {
+                "lat": "24.6463",
+                "lng": "-168.8889"
+            }
+        },
+        "phone": "(775)976-6794 x41206",
+        "website": "conrad.com",
+        "company": {
+            "name": "Yost and Sons",
+            "catchPhrase": "Switchable contextually-based project",
+            "bs": "aggregate real-time technologies"
+        }
+    },
+    {
+        "id": 10,
+        "name": "Clementina DuBuque",
+        "username": "Moriah.Stanton",
+        "email": "Rey.Padberg@karina.biz",
+        "address": {
+            "street": "Kattie Turnpike",
+            "suite": "Suite 198",
+            "city": "Lebsackbury",
+            "zipcode": "31428-2261",
+            "geo": {
+                "lat": "-38.2386",
+                "lng": "57.2232"
+            }
+        },
+        "phone": "024-648-3804",
+        "website": "ambrose.net",
+        "company": {
+            "name": "Hoeger LLC",
+            "catchPhrase": "Centralized empowering task-force",
+            "bs": "target end-to-end models"
+        }
+    }
+]
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/users/3
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:			<none>
+HTTP/1.1 200 OK
+Date: Tue, 10 Jun 2025 19:28:45 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Credentials: true
+Cache-Control: max-age=43200
+Etag: W/"208-uuwhfwQMzFzbJr9Pg6DKXae0SXA"
+Expires: -1
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Pragma: no-cache
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=7Rpg2pSkB69gY%2BJjxHGGWl7wJHscBEu2f%2BeVlaR1pkw%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1749177801"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=7Rpg2pSkB69gY%2BJjxHGGWl7wJHscBEu2f%2BeVlaR1pkw%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1749177801"
+Server: cloudflare
+Vary: Origin, Accept-Encoding
+Via: 2.0 heroku-router
+X-Content-Type-Options: nosniff
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 999
+X-Ratelimit-Reset: 1749177849
+Age: 26533
+Cf-Cache-Status: HIT
+Content-Encoding: gzip
+CF-RAY: 94db460978e3fe1b-SIN
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 3,
+    "name": "Clementine Bauch",
+    "username": "Samantha",
+    "email": "Nathan@yesenia.net",
+    "address": {
+        "street": "Douglas Extension",
+        "suite": "Suite 847",
+        "city": "McKenziehaven",
+        "zipcode": "59590-4157",
+        "geo": {
+            "lat": "-68.6102",
+            "lng": "-47.0653"
+        }
+    },
+    "phone": "1-463-123-4447",
+    "website": "ramiro.info",
+    "company": {
+        "name": "Romaguera-Jacobson",
+        "catchPhrase": "Face to face bifurcated interface",
+        "bs": "e-enable strategic applications"
+    }
+}
+Request method:	PUT
+Request URI:	https://jsonplaceholder.typicode.com/users/2
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": "2",
+    "name": "Bideden",
     "address": {
         "street": "3rd lane1",
-        "suite": "101",
-        "city": "Pune",
-        "zipcode": "109099",
+        "suite": "141",
+        "city": "Nagpur",
+        "zipcode": "108099",
         "geo": {
             "lat": "32.89",
             "lng": "76.65"
         }
     },
-    "email": "ak@gmail.com",
+    "email": "a12k@gmail.com",
     "company": null,
-    "username": "kk123",
-    "phone": "9938543890",
-    "website": "anc@ac.in"
+    "username": "kb123",
+    "phone": "99988543890",
+    "website": "an23c@ac.in"
+}
+HTTP/1.1 200 OK
+Date: Tue, 10 Jun 2025 19:28:45 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Credentials: true
+Cache-Control: no-cache
+Etag: W/"14f-YksaBW5QBwNRPjt2HiDFjM02rYw"
+Expires: -1
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Pragma: no-cache
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=I4qVb%2FgZBjNJtPxgIVr6KkyQeqNI1MUNLjJllUaO72g%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1749583725"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=I4qVb%2FgZBjNJtPxgIVr6KkyQeqNI1MUNLjJllUaO72g%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1749583725"
+Server: cloudflare
+Vary: Origin, Accept-Encoding
+Via: 2.0 heroku-router
+X-Content-Type-Options: nosniff
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 998
+X-Ratelimit-Reset: 1749583763
+Cf-Cache-Status: DYNAMIC
+Content-Encoding: gzip
+CF-RAY: 94db4609d9aea08a-SIN
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 2,
+    "name": "Bideden",
+    "address": {
+        "street": "3rd lane1",
+        "suite": "141",
+        "city": "Nagpur",
+        "zipcode": "108099",
+        "geo": {
+            "lat": "32.89",
+            "lng": "76.65"
+        }
+    },
+    "email": "a12k@gmail.com",
+    "company": null,
+    "username": "kb123",
+    "phone": "99988543890",
+    "website": "an23c@ac.in"
+}
+Request method:	GET
+Request URI:	https://jsonplaceholder.typicode.com/users/5
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "id": "2",
+    "name": "Bideden",
+    "address": {
+        "street": "3rd lane1",
+        "suite": "141",
+        "city": "Nagpur",
+        "zipcode": "108099",
+        "geo": {
+            "lat": "32.89",
+            "lng": "76.65"
+        }
+    },
+    "email": "a12k@gmail.com",
+    "company": null,
+    "username": "kb123",
+    "phone": "99988543890",
+    "website": "an23c@ac.in"
+}
+HTTP/1.1 200 OK
+Date: Tue, 10 Jun 2025 19:28:45 GMT
+Content-Type: application/json; charset=utf-8
+Transfer-Encoding: chunked
+Connection: keep-alive
+Access-Control-Allow-Credentials: true
+Cache-Control: max-age=43200
+Etag: W/"1fb-gmS8Go1GsKpTWscwm+5AFpuro+k"
+Expires: -1
+Nel: {"report_to":"heroku-nel","response_headers":["Via"],"max_age":3600,"success_fraction":0.01,"failure_fraction":0.1}
+Pragma: no-cache
+Report-To: {"group":"heroku-nel","endpoints":[{"url":"https://nel.heroku.com/reports?s=Gu7iFa9QfexVKuxaGf%2F48%2FDR%2BH0lhPBCILPDTBg6mhU%3D\u0026sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d\u0026ts=1749529920"}],"max_age":3600}
+Reporting-Endpoints: heroku-nel="https://nel.heroku.com/reports?s=Gu7iFa9QfexVKuxaGf%2F48%2FDR%2BH0lhPBCILPDTBg6mhU%3D&sid=e11707d5-02a7-43ef-b45e-2cf4d2036f7d&ts=1749529920"
+Server: cloudflare
+Vary: Origin, Accept-Encoding
+Via: 2.0 heroku-router
+X-Content-Type-Options: nosniff
+X-Powered-By: Express
+X-Ratelimit-Limit: 1000
+X-Ratelimit-Remaining: 998
+X-Ratelimit-Reset: 1749529932
+Age: 22595
+Cf-Cache-Status: HIT
+Content-Encoding: gzip
+CF-RAY: 94db460e5a35a0bc-SIN
+alt-svc: h3=":443"; ma=86400
+
+{
+    "id": 5,
+    "name": "Chelsey Dietrich",
+    "username": "Kamren",
+    "email": "Lucio_Hettinger@annie.ca",
+    "address": {
+        "street": "Skiles Walks",
+        "suite": "Suite 351",
+        "city": "Roscoeview",
+        "zipcode": "33263",
+        "geo": {
+            "lat": "-31.8129",
+            "lng": "62.5342"
+        }
+    },
+    "phone": "(254)954-1289",
+    "website": "demarco.info",
+    "company": {
+        "name": "Keebler LLC",
+        "catchPhrase": "User-centric fault-tolerant solution",
+        "bs": "revolutionize end-to-end systems"
+    }
 }
